@@ -1,0 +1,1 @@
+<list vue-id="26a92654-1" bind:__l="__l" vue-slots="{{['default']}}"><block wx:for="{{dataList}}" wx:for-item="item" wx:for-index="index" wx:key="id"><cell vue-id="{{('26a92654-2-'+index)+','+('26a92654-1')}}" bind:__l="__l" vue-slots="{{['default']}}"><text>{{item.name}}</text><view class="_br"></view></cell></block></list>

@@ -1,0 +1,6 @@
+
+.title{ text-align: right;}
+.chaxunlianjie{display: -webkit-box;display: -webkit-flex;display: flex; width: 94% ;padding: 10rpx 3%;}
+.chaxunlianjie button{ height: ;}
+.text1{margin: 20rpx;height:auto;}
+

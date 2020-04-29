@@ -1,0 +1,29 @@
+
+.yangshi{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 20rpx;
+}
+.yangshi1{
+	background:#007AFF;
+	color: #FFFFFF;
+	width: 30%;
+	height: 80rpx;
+	font-size: 40rpx;
+	border-radius: 10rpx;
+	/* float: right; */
+	margin-right: 20rpx;
+	text-align: center;
+}
+.yangshi2{
+	/* background:#ffff8b; */
+	color: #000000;
+	width: 70%;
+	height: 80rpx;
+	font-size: 40rpx;
+	border-radius: 10rpx;
+	border: 5rpx solid #EEEEEE;
+	/* float: right; */
+}
+

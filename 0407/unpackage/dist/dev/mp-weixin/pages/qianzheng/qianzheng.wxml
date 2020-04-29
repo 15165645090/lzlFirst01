@@ -1,0 +1,1 @@
+<view><view></view><view class="shangchuan"><button type="primary" data-event-opts="{{[['tap',[['img',['$event']]]]]}}" bindtap="__e">上传图片</button></view><view class="tijiao"><button type="default" data-event-opts="{{[['tap',[['submit',['$event']]]]]}}" bindtap="__e">提交</button></view></view>

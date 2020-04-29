@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/personal/personal",
+    "pages/gonggao/gonggao",
+    "pages/qianzheng/qianzheng",
+    "pages/gerenxinxi/gerenxinxi",
+    "pages/xuefenchaxun/xuefenchaxun",
+    "pages/chongzhimima/chongzhimima",
+    "pages/qiandao/qiandao",
+    "pages/info/info",
+    "pages/tongzhixiangqing/tongzhixiangqing",
+    "pages/chongzhimima/chongzhimima2"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#ff5500"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/底部导航图片/huodongziliao.png",
+        "selectedIconPath": "static/底部导航图片/huodongziliao（1）.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/qiandao/qiandao",
+        "iconPath": "static/底部导航图片/baomimg.png",
+        "selectedIconPath": "static/底部导航图片/baoming（1）.png",
+        "text": "签到"
+      },
+      {
+        "pagePath": "pages/qianzheng/qianzheng",
+        "iconPath": "static/底部导航图片/qianzheng.png",
+        "selectedIconPath": "static/底部导航图片/qianzheng(1).png",
+        "text": "签证"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "static/底部导航图片/gerenzhongxin.png",
+        "selectedIconPath": "static/底部导航图片/gerenzhongxin(1).png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap86.json"
+}

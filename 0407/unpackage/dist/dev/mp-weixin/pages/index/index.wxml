@@ -1,0 +1,1 @@
+<view><block wx:for="{{news}}" wx:for-item="item" wx:for-index="index"><navigator class="news-list" url="{{'../info/info?id='+item.noticeCode}}"><image src="../../static/login/1.png" mode="widthFix"></image><view class="news-title">{{item.noticeTitle}}</view></navigator></block></view>

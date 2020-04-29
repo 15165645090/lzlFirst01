@@ -1,0 +1,19 @@
+
+.shurukuang{
+	margin: 10rpx;
+	height: 80rpx;
+	width: 60%;
+	/* justify-content:center; */
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border: #007AFF 2rpx solid;
+	
+	margin: 20rpx;
+	border-radius: 10rpx;
+	margin-left: 150rpx;
+}
+.denglu{
+	width: 60%;
+}
+

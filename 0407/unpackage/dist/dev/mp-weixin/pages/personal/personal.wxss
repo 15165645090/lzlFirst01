@@ -1,0 +1,21 @@
+
+.title{
+	background:#007AFF; 
+	/* color: #FFFFFF; */
+	width: 98%;
+	margin-top: 20rpx;
+	height: 100rpx;
+	font-size: 40rpx;
+	border-radius: 10rpx;
+	/* border: 2upx solid #EEEEEE; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+

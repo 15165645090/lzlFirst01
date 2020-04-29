@@ -1,0 +1,6 @@
+
+.news-list{ display: -webkit-box; display: -webkit-flex; display: flex;  width: 94%;padding: 10rpx 3%;}
+.news-list image{width: 100rpx;margin-right:50rpx;}
+.news-title{width: 100%;margin-top: 12rpx;height: auto;}
+swiper-item { background-color: #007AFF;height: 200px;width: 100%; color: #FFFFFF;}
+

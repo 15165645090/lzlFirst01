@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "教师学分管理系统"
+			}
+		},
+		
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		
+		
+		{
+			"path": "pages/gonggao/gonggao",
+			"style": {
+				"navigationBarTitleText": "公告页面"
+			}
+		}
+		
+	    ,{
+            "path" : "pages/qianzheng/qianzheng",
+            "style" : {"navigationBarTitleText": "签证"}
+        }
+        ,{
+            "path" : "pages/gerenxinxi/gerenxinxi",
+            "style" : {"navigationBarTitleText": "个人信息"}
+        }
+        ,
+		{
+            "path" : "pages/xuefenchaxun/xuefenchaxun",
+            "style" : {"navigationBarTitleText": "学分查询"}
+        }
+		,
+		{
+            "path" : "pages/chongzhimima/chongzhimima",
+            "style" : {"navigationBarTitleText": "重置密码"}
+        }
+        ,{
+            "path" : "pages/qiandao/qiandao",
+            "style" : {"navigationBarTitleText":"签到"}
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" : {"navigationBarTitleText":"活动详情"}
+        }
+        ,{
+            "path" : "pages/tongzhixiangqing/tongzhixiangqing",
+            "style" : {"navigationBarTitleText":"通知"}
+        }
+        ,{
+            "path" : "pages/chongzhimima/chongzhimima2",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {//全局的背景色字体的设置
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#ff5500"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/底部导航图片/huodongziliao.png",
+				"selectedIconPath":"static/底部导航图片/huodongziliao（1）.png",
+				"text":"首页"
+			},
+			
+			{
+				"pagePath":"pages/qiandao/qiandao",
+				"iconPath":"static/底部导航图片/baomimg.png",
+				"selectedIconPath":"static/底部导航图片/baoming（1）.png",
+				"text":"签到"
+			},
+			{
+				"pagePath":"pages/qianzheng/qianzheng",
+				"iconPath":"static/底部导航图片/qianzheng.png",
+				"selectedIconPath":"static/底部导航图片/qianzheng(1).png",
+				"text":"签证"
+			},
+			{
+				"pagePath":"pages/personal/personal",
+				"iconPath":"static/底部导航图片/gerenzhongxin.png",
+				"selectedIconPath":"static/底部导航图片/gerenzhongxin(1).png",
+				"text":"个人中心"
+			}
+		]
+	},
+	"app-plus": {
+	    "softinputMode": "adjustResize"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
